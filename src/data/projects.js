@@ -3,6 +3,32 @@
 
 export const projectsData = [
   {
+    id: "coffee-shop-platform",
+    title: "Coffee Shop Website + Admin Panel + Table Reservations",
+    shortDescription:
+      "Full-stack coffee shop platform with customer website, owner-friendly admin panel, and a seat-style table reservation system.",
+    tech: ["React", "Vite", "HTML", "CSS", "Node.js", "Express", "SQLite", "Vercel"],
+    liveUrl: "https://coffee-shop-ten-ruddy.vercel.app/",
+    repoUrl: "https://github.com/rohitparapati/coffee-shop",
+    details: {
+      problem:
+        "Coffee shops need a modern website plus simple owner tools to manage offers and reservations, without complicated systems.",
+      solution:
+        "Building a full-stack platform: customer pages (Home, Offers, Menu, Reserve, Location, Contact) and an admin dashboard to manage offers, reservations, and contact submissions.",
+      features: [
+        "Customer website with routing: Home, Offers, Menu, Reserve a Table, Location, Contact",
+        "Sticky glass-style navbar with mobile hamburger menu",
+        "Offers page driven by database with date-based active filtering (valid from/to)",
+        "Creative menu layout with categories, search, and filters (seeded initial items)",
+        "Seat-style reservation UI (movie-theater booking feel) with table availability states",
+        "Backend validation to prevent double-booking (availability checks + server-side locking)",
+        "Contact form stores messages in DB; admin can view and mark as resolved",
+        "Admin panel (/admin) with simple login and clean CRUD screens for owner",
+      ],
+      images: [],
+    },
+  },
+  {
     id: "triplanner",
     title: "Interactive Group Travel Planner",
     shortDescription:
@@ -119,32 +145,7 @@ export const projectsData = [
 },
   
 
-  {
-    id: "coffee-shop-platform",
-    title: "Coffee Shop Website + Admin Panel + Table Reservations",
-    shortDescription:
-      "Full-stack coffee shop platform with customer website, owner-friendly admin panel, and a seat-style table reservation system.",
-    tech: ["React", "Vite", "HTML", "CSS", "Node.js", "Express", "SQLite", "Vercel"],
-    liveUrl: "",
-    repoUrl: "",
-    details: {
-      problem:
-        "Coffee shops need a modern website plus simple owner tools to manage offers and reservations, without complicated systems.",
-      solution:
-        "Building a full-stack platform: customer pages (Home, Offers, Menu, Reserve, Location, Contact) and an admin dashboard to manage offers, reservations, and contact submissions.",
-      features: [
-        "Customer website with routing: Home, Offers, Menu, Reserve a Table, Location, Contact",
-        "Sticky glass-style navbar with mobile hamburger menu",
-        "Offers page driven by database with date-based active filtering (valid from/to)",
-        "Creative menu layout with categories, search, and filters (seeded initial items)",
-        "Seat-style reservation UI (movie-theater booking feel) with table availability states",
-        "Backend validation to prevent double-booking (availability checks + server-side locking)",
-        "Contact form stores messages in DB; admin can view and mark as resolved",
-        "Admin panel (/admin) with simple login and clean CRUD screens for owner",
-      ],
-      images: [],
-    },
-  },
+  
 
 ];
 

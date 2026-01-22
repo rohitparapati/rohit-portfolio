@@ -50,7 +50,7 @@ export const projectsData = [
     id: "gas-station-site",
     title: "Gas Station Business Website",
     shortDescription:
-      "A dark, modern website with sections like fuel prices, store info, and contact.",
+      "A modern website with sections like fuel prices, store info, and contact.",
     tech: ["React", "Vite", "HTML", "CSS"],
     liveUrl: "",
     repoUrl: "",
@@ -119,6 +119,33 @@ export const projectsData = [
 },
   
 ];
+{
+  id: "coffee-shop-platform",
+  title: "Coffee Shop Platform (Customer Site + Admin + Reservations)",
+  shortDescription:
+    "Full-stack coffee shop web app with offers, menu, contact, and a seat-style table reservation system plus a simple admin panel.",
+  tech: ["React", "Vite", "CSS", "Node.js", "Express", "SQLite", "Vercel"],
+  liveUrl: "", // add later when deployed
+  repoUrl: "", // add your GitHub repo when ready
+  details: {
+    problem:
+      "Small coffee shops need a modern website plus simple owner tools to manage offers and reservations, without complex enterprise software.",
+    solution:
+      "Built a full-stack platform: customer-facing site (Home, Offers, Menu, Reserve, Location, Contact) and an owner-friendly admin dashboard to manage offers, reservations, and contact submissions.",
+    features: [
+      "Customer site with routing: Home, Offers, Menu, Reserve a Table, Location, Contact",
+      "Admin panel (/admin) with simple login and clean management screens",
+      "Offers system with date-based active filtering (valid from/to)",
+      "Menu with categories, search, and filter (DB-driven with seed data)",
+      "Seat-style reservation UI (movie-theater style) with table availability states",
+      "Backend validation to prevent double-booking (availability + locking)",
+      "Contact form storing submissions for admin review and resolution tracking",
+      "Built with clean CSS, responsive layout, and accessibility basics",
+    ],
+    images: [], // add later: "/assets/projects/coffee-shop/1.png"
+  },
+}
+
 
 /*
 Missing project types you SHOULD consider adding:

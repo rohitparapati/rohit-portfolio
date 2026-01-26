@@ -1,5 +1,8 @@
 // Keep projects in data so adding/editing is easy.
 // Later, "View Details" will open an internal details view (route or modal).
+import coffee1 from "../assets/projects/coffee-shop/1.png";
+import coffee2 from "../assets/projects/coffee-shop/2.png";
+import coffee3 from "../assets/projects/coffee-shop/3.png";
 
 export const projectsData = [
   {
@@ -25,7 +28,7 @@ export const projectsData = [
         "Contact form stores messages in DB; admin can view and mark as resolved",
         "Admin panel (/admin) with simple login and clean CRUD screens for owner",
       ],
-      images: [],
+      images: [coffee1, coffee2, coffee3], // add image paths later
     },
   },
   {

@@ -8,7 +8,7 @@ export const skillsData = [
   },
   {
     category: "Frontend",
-    items: ["React", "HTML5", "CSS3", "Vite", "Responsive UI", "Accessibility (a11y)"],
+    items: ["React", "HTML5", "CSS3", "Vite", "Responsive UI", "Accessibility (a11y), component-based design"],
   },
   {
     category: "Backend",
@@ -17,6 +17,10 @@ export const skillsData = [
   {
     category: "Databases",
     items: ["MySQL", "PostgreSQL", "SQL Server", "MongoDB (familiar)", "Schema Design", "Indexing (basics)"],
+  },
+  {
+    category: "CMS / Platforms",
+    items: ["WordPress (site setup, themes, plugins, content management)"],
   },
   {
     category: "Cloud / DevOps",

@@ -8,7 +8,7 @@ export const skillsData = [
   },
   {
     category: "Frontend",
-    items: ["React", "HTML5", "CSS3", "Vite", "Responsive UI", "Accessibility (a11y), component-based design"],
+    items: ["React", "HTML5", "CSS3", "Vite", "Responsive UI", "Accessibility (a11y)", "component-based design"],
   },
   {
     category: "Backend",
